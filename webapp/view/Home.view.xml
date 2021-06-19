@@ -1,0 +1,15 @@
+<mvc:View
+	controllerName="products.products.controller.Home"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+
+	<Page title="{i18n>Home}" >
+
+    <GenericTile header="Gestione Prodotti"
+            class="sapUiTinyMargin"
+            press="prod"  >
+    </GenericTile>
+  </Page>
+
+</mvc:View>
